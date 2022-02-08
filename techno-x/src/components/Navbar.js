@@ -6,11 +6,7 @@ import SearchBar from './Search/SearchBar'
 import "./Navbar.css"
 
 // import Account from './accountBox/index.jsx'
-import {
-    BrowserRouter as Router,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link} from "react-router-dom";
 // import React,{useState} from 'react';
 // import { AccountBox } from './accountBox';
 // import { DropdownMenu, MenuItem } from 'react-bootstrap-dropdown-menu';
@@ -20,7 +16,7 @@ function Navbar(){
         <nav className="navbar navbar-expand-lg navbar-light shadow" >
                 <div className="container justify-content-between align-items-center" id="template">
                 <a className="navbar-brand text-success align-self-center" href="#" id="prama">
-                            <img src={Prama} alt="logo" height="100px" weigth="100px" />
+                <Link to="/"><img src={Prama} alt="logo" height="100px" weigth="100px" /></Link>
                         </a>
                     
 
