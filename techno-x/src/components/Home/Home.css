@@ -1,0 +1,18 @@
+.body{
+  margin: 0px;
+  padding: 0px !important
+}
+#template-mo-jassa-hero-carousel { background: #efefef !important;}
+.tempaltemo-carousel .h1 {
+  font-size: .5em !important;
+  color: #000 !important;
+}
+@media (min-width: 576px) {
+    .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  }
+
+  @media (min-width: 992px) {
+   
+    #template-mo-jassa-hero-carousel .carousel-item {min-height: 30rem !important;}
+    
+  }

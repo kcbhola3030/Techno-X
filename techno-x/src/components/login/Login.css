@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px
+  !important
+}
+
+.back {
+  background-image: url("https://wallpaperaccess.com/full/1543444.jpg");
+  margin: 0;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff
+  !important;
+}
+#inputAddress{
+  height: 40px !important;
+}
+.login {
+  background-color: rgb(255, 255, 255);
+  width: 440px;
+  height: 525px;
+  padding: 30px 35px 35px 35px !important;
+  border: 10px solid rgb(213, 221, 233);
+  border-width: 16px 10px 12px 15px;
+  position: relative
+  !important;
+}
+.login::after {
+  content: "";
+  width: 50%;
+  height: 1.1px;
+  position: absolute;
+  right: 0;
+  top: -1px
+  !important;
+}
+.login.inset {
+  border-style: inset
+  !important;
+}
+.login::before {
+  content: "";
+  position: absolute;
+  border: 7px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  top: -5.5px;
+  left: -6px;
+  bottom: -5.5px;
+  right: -5.5px
+  !important;
+}
+.title {
+  font-size: 19px;
+  color: black  !important;
+}
+.sub-title {
+  font-size: 12px;
+  color: rgb(151, 155, 160);
+  padding-top: 3px  !important;
+}
+#but {
+  font-size: 13px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 157px;
+  height: 60px;
+  border-color: rgb(195, 199, 204);
+  color: rgb(151, 155, 160)  !important;
+}
+.gap-1 {
+  font-size: 30px;
+  height: 82px;
+  width: 100%;
+  padding-top: 22px  !important;
+}
+.col-12 {
+  padding: 2px;
+  padding-top: 12px;
+}
+#but:hover {
+  color: rgb(87, 115, 192) !important;
+  border-color: rgb(77, 105, 182);
+  opacity: 0.5;
+  background-color: rgb(208, 223, 240);
+  border-width: 2px  !important;
+}
+.form-control:hover {
+  border-color: rgb(123, 123, 202)  !important;
+}
+.form {
+  width: 100%;
+  padding-left: -35px;
+  box-sizing: border-box;
+  position: relative  !important;
+}
+#name {
+  padding-left: 35px;
+  width: 340px;
+  height: 46px;
+  border-radius: 5px;
+  border-color: rgb(195, 199, 204)  !important;
+}
+#name:active,
+#name:hover {
+  border-color: rgb(0, 68, 255);
+  border-width: 2px  !important;
+}
+.form-label {
+  font-size: 12px  !important;
+}
+.logo{
+  justify-content: center;
+}
+
+/* Navbar css */
