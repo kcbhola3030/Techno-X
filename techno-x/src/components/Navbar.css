@@ -39,10 +39,10 @@
     color: #fff;
   } */
   /* Nav */
-#template{min-width: 100%; margin: 0px; padding: 0px; background-color: white; box-shadow: rgb(86, 119, 105)0px 5px 5px -2px;font-weight: 900px !important}
+#template{min-width: 100%; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); box-shadow: rgb(86, 119, 105)0px 5px 5px -2px;font-weight: 900px !important}
 #prama{margin-left:150px}
-#templatemo_main_nav a { color: #000000 !important}
-#templatemo_main_nav a:hover { color: #69bb7e;}
+#templatemo_main_nav a { color: #000000;font-weight: 700 !important}
+#templatemo_main_nav a:hover { color: #69bb7e !important}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
   /* Hero Carousel */

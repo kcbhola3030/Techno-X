@@ -3,10 +3,10 @@ import './App.css'
 import HomePage from "./components/Home/Home"
 import Categories from './components/Categories/Categories';
 import Footer from './components/Footer/Footer';
-import Navbar from './components/Navbar';
-import styled from "styled-components";
+
 import Recommend from './components/Recommend/Recommend';
 import Login from './components/login/Login';
+import {Signup} from './components/Signup/Signup';
 
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -36,6 +36,7 @@ export default function App() {
                         <Route exact path='/about' element={< Categories />}></Route>
                         <Route exact path='/contact' element={< Footer />}></Route>
                         <Route exact path='/login' element={<Login/>}></Route>
+                        <Route exact path='/signup' element={<Signup/>}></Route>
                 </Routes>
                 </div>
         </Router>

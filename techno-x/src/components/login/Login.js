@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Login.css"
+import "./Login.css";
+import {Link} from "react-router-dom";
 
 function Login () {
   return (
@@ -7,7 +8,7 @@ function Login () {
   <div className='back'><div className="login">
       
             <div className="mb-3">
-                <div className="title"><h1>Welcome to Prama</h1> </div>
+                <div className="title"><h1>Welcome Back!!!</h1> </div>
                 
                 {/* <div className="sub-title"><br/>Please a bit about you so that we can personalize <br/> your onboarding skills <br/> You are looing for,<br/></div> */}
             </div>
@@ -28,7 +29,7 @@ function Login () {
                       <input type="tel" className="form-control" id="name" id="inputAddress"/>
                   </div>
                   <div className='col-12'>
-                      <p>Don't have an account!!! <a href="#">Signin</a></p>
+                      <p>Don't have an account!!! <Link to="/signup">Signin</Link></p>
                   </div>
                   <div className="d-grid gap-1">
                       <button className="btn btn-primary"  type="submit"><b>Login</b>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" classNameName="bi bi-arrow-right" viewBox="0 0 16 16">

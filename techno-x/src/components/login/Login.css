@@ -6,7 +6,7 @@
 }
 
 .back {
-  background-image: url("https://wallpaperaccess.com/full/1543444.jpg");
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/libreria-di-casa-royalty-free-image-1599665423.jpg?crop=1.00xw:0.751xh;0,0.110xh&resize=1200:*");
   margin: 0;
   padding: 0px;
   height: 100vh;
@@ -23,16 +23,17 @@
   height: 40px !important;
 }
 .login {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.8);
+  
   width: 440px;
-  height: 525px;
+  height: 500px;
   padding: 30px 35px 35px 35px !important;
-  border: 10px solid rgb(213, 221, 233);
   border-width: 16px 10px 12px 15px;
   position: relative
   !important;
 }
 .login::after {
+  
   content: "";
   width: 50%;
   height: 1.1px;
@@ -58,11 +59,11 @@
 }
 .title {
   font-size: 19px;
-  color: black  !important;
+  color: rgb(0, 0, 0)  !important;
 }
 .sub-title {
   font-size: 12px;
-  color: rgb(151, 155, 160);
+  color: rgb(7, 7, 7);
   padding-top: 3px  !important;
 }
 #but {
@@ -71,8 +72,8 @@
   box-sizing: border-box;
   width: 157px;
   height: 60px;
-  border-color: rgb(195, 199, 204);
-  color: rgb(151, 155, 160)  !important;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255)  !important;
 }
 .gap-1 {
   font-size: 30px;
@@ -90,6 +91,9 @@
   opacity: 0.5;
   background-color: rgb(208, 223, 240);
   border-width: 2px  !important;
+}
+.form-control{
+  border-color: black;
 }
 .form-control:hover {
   border-color: rgb(123, 123, 202)  !important;
