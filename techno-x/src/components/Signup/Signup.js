@@ -7,7 +7,7 @@ export const Signup = () => {
   return (<div className='back'><div className="signup">
       
   <div className="mb-2">
-      <div className="title"><h1>Welcome to Prama</h1> </div>
+      <div className="title"><h1>Welcome to Prama</h1>  </div>
       
       {/* <div className="sub-title"><br/>Please a bit about you so that we can personalize <br/> your onboarding skills <br/> You are looing for,<br/></div> */}
   </div>
@@ -19,7 +19,7 @@ export const Signup = () => {
             <label for="inputAddress" className="form-label"><h6>Email Id</h6></label>
             <input type="text" className="form-control" id="name" id="inputAddress"/>
         </div>
-        <div className="col-12">
+        {/* <div className="col-12">
             <label for="inputAddress" className="form-label"><h6>Full Name</h6></label>
             <input type="text" className="form-control" id="name" id="inputAddress"/>
         </div>
@@ -30,19 +30,19 @@ export const Signup = () => {
         <div className="col-12">
             <label for="inputAddress" className="form-label"><h6>PRN</h6></label>
             <input type="text" className="form-control" id="name" id="inputAddress"/>
-        </div>
+        </div> */}
         <div className="col-12">
             <label for="inputAddress2" className="form-label"><h6>Password</h6></label>
             <input type="hexa" className="form-control" id="name" id="inputAddress"/>
         </div>
-        <div className="col-12">
+        {/* <div className="col-12">
             <label for="inputAddress2" className="form-label"><h6>Confirm Password</h6></label>
             <input type="text" className="form-control" id="name" id="inputAddress"/>
         </div>
         <div className="col-12">
             <label for="inputAddress2" className="form-label"><h6>Phone number</h6></label>
             <input type="tel" className="form-control" id="name" id="inputAddress"/>
-        </div>
+        </div> */}
         <div className='col-12'>
             <p>Already have account??? <Link to="/login">Login in</Link> </p>
         </div>

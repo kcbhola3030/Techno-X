@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 import "./Upload.css"
 import Navbar from "../Navbar"
 function Upload(){

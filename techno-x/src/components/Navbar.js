@@ -4,13 +4,20 @@ import Prama from "../Image/Prama.svg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SearchBar from './Search/SearchBar'
 import "./Navbar.css"
+import {useAuth0} from "@auth0/auth0-react"
+import LoginButton from "../login";
+import LogoutButton from "../logout-button";
 
 // import Account from './accountBox/index.jsx'
 import {Link} from "react-router-dom";
+
 // import React,{useState} from 'react';
 // import { AccountBox } from './accountBox';
 // import { DropdownMenu, MenuItem } from 'react-bootstrap-dropdown-menu';
 function Navbar(){
+    // const {isAuthenticated}=useAuth0();
+
+    
     // const [showLinks,setShowLinks]=useState(false)
     return(
         <nav className="navbar navbar-expand-lg navbar-light shadow" >
@@ -39,9 +46,9 @@ function Navbar(){
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"><Link to="/recommend">Books</Link></a>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <a className="nav-link" href="#"><Link to="/contact">Feedback</Link></a>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
                                     <a className="nav-link" href="https://discord.gg/DVXTSNG5qk">Discord</a>
                                 </li>
@@ -73,7 +80,11 @@ function Navbar(){
                             </a>
                             <a className="nav-icon position-relative text-decoration-none" href="#" >
                                 {/* <i onClick={event =>  window.location.href='./accountBox/index.jsx'}className="fa fa-fw fa-user text-dark mr-3"></i> */}
-                                <Link to="/login"><i class="fa fa-fw fa-power-off text-dark mr-3"></i></Link> 
+                                <Link to="/login"><i class="fa fa-fw fa-power-off text-dark mr-3"></i></Link>
+                                {/* <div className="justify-content-end">
+                                    {isAuthenticated?<LogoutButton/>:<LoginButton/>}
+                                </div> */}
+                                
                             </a>
                             
                                 {/* <LinkContainer to="/home"><i className="fa fa-fw fa-user text-dark mr-3"></i></LinkContainer> */}
