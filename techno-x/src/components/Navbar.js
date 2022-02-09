@@ -4,9 +4,9 @@ import Prama from "../Image/Prama.svg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SearchBar from './Search/SearchBar'
 import "./Navbar.css"
-import {useAuth0} from "@auth0/auth0-react"
-import LoginButton from "../login";
-import LogoutButton from "../logout-button";
+// import {useAuth0} from "@auth0/auth0-react"
+// import LoginButton from "../login";
+// import LogoutButton from "../logout-button";
 
 // import Account from './accountBox/index.jsx'
 import {Link} from "react-router-dom";
