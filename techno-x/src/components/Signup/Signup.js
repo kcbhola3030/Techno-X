@@ -24,6 +24,10 @@ export const Signup = () => {
             <input type="text" className="form-control" id="name" id="inputAddress"/>
         </div>
         <div className="col-12">
+            <label for="inputAddress" className="form-label"><h6>College</h6></label>
+            <input type="text" className="form-control" id="name" id="inputAddress"/>
+        </div>
+        <div className="col-12">
             <label for="inputAddress" className="form-label"><h6>PRN</h6></label>
             <input type="text" className="form-control" id="name" id="inputAddress"/>
         </div>

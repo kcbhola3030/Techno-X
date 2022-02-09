@@ -7,6 +7,9 @@ import Footer from './components/Footer/Footer';
 import Recommend from './components/Recommend/Recommend';
 import Login from './components/login/Login';
 import {Signup} from './components/Signup/Signup';
+import Upload from './components/Upload/Upload';
+import Profile from './components/Profile/Profile';
+
 
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,7 +40,10 @@ export default function App() {
                         <Route exact path='/contact' element={< Footer />}></Route>
                         <Route exact path='/login' element={<Login/>}></Route>
                         <Route exact path='/signup' element={<Signup/>}></Route>
-                </Routes>
+                        <Route exact path='/upload' element={<Upload/>}></Route>
+                        <Route exact path='/profile' element={<Profile/>}></Route>
+                        <Route exact path='/recommend' element={<Recommend/>}></Route>
+                    </Routes>
                 </div>
         </Router>
 

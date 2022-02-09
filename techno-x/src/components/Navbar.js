@@ -37,6 +37,9 @@ function Navbar(){
                                     <a className="nav-link" href="#"><Link to="/about">Categories</Link></a>
                                 </li>
                                 <li className="nav-item">
+                                    <a className="nav-link" href="#"><Link to="/recommend">Books</Link></a>
+                                </li>
+                                <li className="nav-item">
                                     <a className="nav-link" href="#"><Link to="/contact">Feedback</Link></a>
                                 </li>
                                 <li className="nav-item">
@@ -58,14 +61,21 @@ function Navbar(){
                       </a> */}
                             <a className="nav-icon position-relative text-decoration-none" href="#">
                                 {/* <i className="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>  */}
-                                <i class="fa fa-plus-square text-dark mr-1" aria-hidden="true"></i>
+                                <Link to="/upload"><i class="fa fa-plus-square text-dark mr-1" aria-hidden="true"></i></Link>
+
 
                             </a>
                             
+                            
                             <a className="nav-icon position-relative text-decoration-none" href="#" >
                                 {/* <i onClick={event =>  window.location.href='./accountBox/index.jsx'}className="fa fa-fw fa-user text-dark mr-3"></i> */}
-                                <Link to="/login"><i className="fa fa-fw fa-user text-dark mr-3"></i></Link> 
+                                <Link to="/profile"><i className="fa fa-fw fa-user text-dark mr-3"></i></Link> 
                             </a>
+                            <a className="nav-icon position-relative text-decoration-none" href="#" >
+                                {/* <i onClick={event =>  window.location.href='./accountBox/index.jsx'}className="fa fa-fw fa-user text-dark mr-3"></i> */}
+                                <Link to="/login"><i class="fa fa-fw fa-power-off text-dark mr-3"></i></Link> 
+                            </a>
+                            
                                 {/* <LinkContainer to="/home"><i className="fa fa-fw fa-user text-dark mr-3"></i></LinkContainer> */}
                                 {/* <li className="dropdown">
                                     <a className="dropdown-toggle" data-toggle="dropdown" href="#"><i className="fa fa-fw fa-user text-dark mr-3"></i><span class="caret"></span></a>
